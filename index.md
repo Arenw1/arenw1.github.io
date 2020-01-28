@@ -5,7 +5,7 @@
 ### Bahamas Fire Project 
 
 [Repeat Burns in North Andros](/sample_page)
-<img src="/projects/map_1.JPG"/>
+<img src="/projects/Map_1.JPG"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
