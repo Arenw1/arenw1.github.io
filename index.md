@@ -5,7 +5,7 @@
 ### Bahamas Fire Project 
 
 [Project 1 Title](/sample_page)
-<"arenw1.github.io/projects/map_1.pdf"/>
+<img src="/projects/map_1.pdf"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
