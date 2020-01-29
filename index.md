@@ -4,11 +4,11 @@
 
 ### GES Projects 
 
-[Bahamas Fire Project](/sample_page)
+[Bahamas Fire Project](/pdf/381 Final Presentation.PDF)
 <img src="/projects/Map_1.JPG"/>
 
 ---
-[Habitat Determination](/pdf/sample_presentation.pdf)
+[Habitat Determination]()
 <img src="/projects/Habitat.PNG"/>
 
 ---
