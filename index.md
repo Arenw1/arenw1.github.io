@@ -9,7 +9,7 @@
 
 ---
 [Habitat Determination](/pdf/sample_presentation.pdf)
-<img src="/projects/Habitat.png"/>
+<img src="/projects/Habitat.PNG"/>
 
 ---
 
