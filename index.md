@@ -4,7 +4,7 @@
 
 ### GES Projects 
 
-[Bahamas Fire Project](pdf/381 Final Presentation.pdf)
+[Bahamas Fire Project (Data-MODIS Burned Area Product)](pdf/381 Final Presentation.pdf)
 <img src="/projects/Map_1.JPG"/>
 
 ---
