@@ -4,7 +4,7 @@
 
 ### Analysis
 
-Dr. Alan Yeakly provided the following statement to assist in the analysis
+Dr. Alan Yeakley provided the following statement to assist in the analysis
 1) Gremlins fear death by total immersion in water, and are never found within 250 m of a MAJOR WATER BODY 
 2) Gremlins fear forests and should not be present within a FORESTED ZONE 
 3) Gremlins fear cats, and cats like vacant lots. If there are BROWNFIELD SITES or VACANT LOTS within a 0.5 km radius of a determination area, gremlins will not be present.  
