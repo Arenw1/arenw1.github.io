@@ -16,7 +16,7 @@
 ### Additional Positions/Honors
 
 - [MDOT Fellowship](https://publicservicescholars.umbc.edu/mdot-fellows-2019/)
-- [UMBC Career Center Intern of the Week] (https://careers.umbc.edu/news/?id=90220)
+- [UMBC Career Center Intern of the Week](https://careers.umbc.edu/news/?id=90220)
 
 ---
 
