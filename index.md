@@ -7,9 +7,12 @@
 [Bahamas Fire Project (Data-MODIS Burned Area Product)](pdf/381 Final Presentation.pdf)
 <img src="/projects/Map_1.JPG"/>
 
+This project was to look at fire regimes in the Bahamas through remote sensing and GIS
+
 ---
 [Habitat Determination](/Habitat_Determination.md)
 <img src="/projects/Habitat.PNG"/>
+This project was done as a test of GIS skills during the 2019 Fall semester at UMBC
 
 ---
 
