@@ -1,5 +1,5 @@
 title: Aren Warner # your name (or website title) here
-logo: "/images/IMG_0278.jpg" # your photo (or logo) here
+logo: "/images/IMG_0278.jpg, transform: rotate(90deg)" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   **About this page:** 
   <br>I am a fourth year student at UMBC studying Geographic and Environmental Systems and GIS. Highlighted here are some recent projects for different classes and agencies I have done work for. While the projects described here are diverse, I specialize in fluvial systems and urban infrastructure.<br>
