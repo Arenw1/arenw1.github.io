@@ -1,31 +1,17 @@
-## This can be your internal website page / project page
+## GES 386 Lab Practical
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:** This project was a lab practical designed to test GIS skills in geospatial analysis by giving a number of conditions for the likely habitat area for a hypothetical creature (Gremlins) within the city of Baltimore. 
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+### Analysis
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+Dr. Alan Yeakly provided the following statement to assist in the analysis
+1) Gremlins fear death by total immersion in water, and are never found within 250 m of a MAJOR WATER BODY 
+2) Gremlins fear forests and should not be present within a FORESTED ZONE 
+3) Gremlins fear cats, and cats like vacant lots. If there are BROWNFIELD SITES or VACANT LOTS within a 0.5 km radius of a determination area, gremlins will not be present.  
+4) They prefer areas where there are more children (aged 0-17) than seniors over age 65. 
+5) They prefer areas where the male to female ratio is greater than or equal to 55%. 
+6) They are likely to be in RESIDENTIAL NEIGHBORHOODS with higher than average population density
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+### Final Product
 
-### 2. Assess assumptions on which statistical inference will be based
-
-```javascript
-if (isAwesome){
-  return true
-}
-```
-
-### 3. Support the selection of appropriate statistical tools and techniques
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
-### 4. Provide a basis for further data collection through surveys or experiments
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The map on the previous page was the final habitat area after careful consideration of these guidelines
