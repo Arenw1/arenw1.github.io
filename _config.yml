@@ -3,7 +3,7 @@ logo: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUTEhMVFR
 description: > # your text below (remove <br> elements if you don't need line breaks)
   About this page: 
   <br>I am a fourth year student at UMBC studying Geographic and Environmental Systems and GIS. Highlighted here are some recent projects for different classes and agencies I have done work for. While the projects described here are diverse, I specialize in fluvial systems and urban infrastructure.<br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/aren-warner/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
