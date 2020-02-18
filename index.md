@@ -6,6 +6,7 @@
 
 [Baltimore Transit Web Map](projects/qgis2web_2020_02_18-00_42_33_843216/index.html)
 <img src="/images/sc_map.PNG"/>
+This map is a first draft of a leaflet web map created by the qgis2sweb plugin in QGIS. This map shows multimodal transit in the City of Baltimore over-top of estimated housing densities by block group from 2014-2018 ACS data.
 
 ---
 
