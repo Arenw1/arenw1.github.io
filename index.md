@@ -2,7 +2,11 @@
 
 ---
 
-### GES Projects 
+### GES Projects
+
+[Baltimore Transit Web Map}()
+<img scr="/projects/qgis2web_2020_02_18-00_42_33_843216/index.html">
+---
 
 [Bahamas Fire Project (Data-MODIS Burned Area Product)](pdf/381 Final Presentation.pdf)
 <img src="/projects/Map_1.JPG"/>
@@ -15,8 +19,7 @@ This project was to look at fire regimes in the Bahamas through remote sensing a
 This project was done as a test of GIS skills during the 2019 Fall semester at UMBC
 
 ---
-[Baltimore Transit Web Map}()
-<img scr="/projects/qgis2web_2020_02_18-00_42_33_843216/index.html">
+
 
 ### Additional Positions/Honors
 
