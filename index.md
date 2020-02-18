@@ -5,7 +5,7 @@
 ### GES Projects
 
 [Baltimore Transit Web Map](projects/qgis2web_2020_02_18-00_42_33_843216/index.html)
-<img src="/images/sc_map.PNG/">
+<img src="/images/sc_map.PNG"/>
 
 ---
 
