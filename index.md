@@ -5,7 +5,7 @@
 ### GES Projects
 
 [Baltimore Transit Web Map](projects/qgis2web_2020_02_18-00_42_33_843216/index.html)
-<img scr="images/sc_map.PNG">
+<img scr="images/sc_map.PNG/">
 ---
 
 [Bahamas Fire Project (Data-MODIS Burned Area Product)](pdf/381 Final Presentation.pdf)
