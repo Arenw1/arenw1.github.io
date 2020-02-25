@@ -4,9 +4,9 @@
 
 ### GES Projects
 
-[Baltimore Transit Web Map](projects/qgis2web_2020_02_18-00_42_33_843216/index.html)
-<img src="/images/sc_map.PNG"/>
-This map is a first draft of a leaflet web map created by the qgis2sweb plugin in QGIS. This map shows multimodal transit in the City of Baltimore over-top of estimated housing densities by block group from 2014-2018 ACS data.
+[World Photo Map](projects/qgis2web_2020_02_25-10_33_20_132185/index.html)
+<img src="images/webmap_sc.PNG"/>
+This map shows photos from different trips I have gone on recently. There is also a layer that shows the "field of view" created from wedge buffers using the photo's orientation (Idea from: https://communityhealthmaps.nlm.nih.gov/2019/02/21/mapping-field-photos-in-qgis/). Some of the landscape oriented photos are sideways so I am still working on that  ¯\_(ツ)_/¯.
 
 ---
 
