@@ -5,7 +5,7 @@
 ### GES Projects
 
 [Baltimore Lightrail Study]
-Based off the transit study done in Atlanta GA by Kyungsoon Wang and Myungje Woo with the School of City and Regional Planning, Georgia Institute of Technology, and Department of Urban Planning and Design, University of Seoul, I took a look at Baltimore's Lighrail ridership and median household income of the area surrounding each station. WHile this is a higher level overview than the original study, the patterns and findings could lead to a more statistically inense (and therefore sign ificant) study done at the same level of the 2017 Atlanta MARTA study.
+Project 1 for GES 486 - Advanced GIS
 
 [World Photo Map](projects/qgis2web_2020_02_25-10_33_20_132185/index.html)
 <img src="images/webmap_sc.PNG"/>
