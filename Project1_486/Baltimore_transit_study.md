@@ -8,7 +8,13 @@ I started by producing a map which displayed 5 classes for the mediant household
 
 
 ### Results
-<img src="images/webmap_sc.PNG"/>
+<img src="Project1_486/BG_map.pdf"/>
+Block group level income data for Anne Arundel and Baltimore Counties as well as Baltimore City divided into five classes by quantile.
+
+<img src="Project1_486/Lightrail_map.pdf"/>
+Lightrail 0.5 mile station buffers by ridership
+
+Overall, through the geospatial analysis, the busiest stations appear to be in
 
 **Source:**
 Wang, K., & Woo, M. (2017, July 27). The relationship between transit rich neighborhoods and transit ridership: Evidence from the decentralization of poverty. Retrieved from https://www.sciencedirect.com/science/article/pii/S0143622817307166
