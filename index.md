@@ -4,7 +4,8 @@
 
 ### GES Projects
 
-[Baltimore Lightrail Study]
+[Baltimore Lightrail Study](Project1_486/Baltimore_transit_study.md)
+<img src="Project1_486/BG_map.pdf"/>
 Project 1 for GES 486 - Advanced GIS
 
 [World Photo Map](projects/qgis2web_2020_02_25-10_33_20_132185/index.html)
