@@ -8,10 +8,10 @@ I started by producing a map which displayed 5 classes for the median household 
 
 
 ### Results
-<img src="../pdf/BG_map.pdf"/>
+<img src="../images/BG_map.pdf"/>
 Block group level income data for Anne Arundel and Baltimore Counties as well as Baltimore City divided into five classes by quantile.
 
-<img src="../pdf/Lightrail_map.pdf"/>
+<img src="../images/Lightrail_map.pdf"/>
 Lightrail 0.5 mile station buffers by ridership
 
 Overall, through the geospatial analysis, the busiest stations appear to be in the center of the city and at the main termini (BWI, Cromwell, and Timonium Fairgrounds). BWI, being an airport, has no block group level data for income within a 0.5 mile radius but also most likely receives a different clientele than the other stations which are commuter/resident based. The income distribution differs from the Atlanta case where Atlanta has experienced more of a decentralization of poverty and Baltimore, compared to outlying countries, has lower income block groups towards the inner-city areas.
