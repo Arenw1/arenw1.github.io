@@ -7,4 +7,4 @@ The tweets were gathered by running the search_tweets function of rtweet in R an
 
 ---
 
-[See the online map here](Lab_6/qgis2web_2020_03_27-20_32_13_340222/index.html)
+[See the online map here](../Lab_6/qgis2web_2020_03_27-20_32_13_340222/index.html)
