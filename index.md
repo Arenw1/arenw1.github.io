@@ -4,9 +4,17 @@
 
 ### GES Projects
 
+[COVID-19 Tweet Map](Lab_6/lab_6_Warner.md)
+<img src="../images/thumbnail.PNG"/>
+A map of the U.S. comparing the amount of tweets about the COVID-19 Pandemic and the economy.
+
+---
+
 [Baltimore Lightrail Study](Project1_486/Baltimore_transit_study.md)
 <img src="../images/BG_map.PNG"/>
 Project 1 for GES 486 - Advanced GIS
+
+---
 
 [World Photo Map](projects/qgis2web_2020_02_25-10_33_20_132185/index.html)
 <img src="images/webmap_sc.PNG"/>
