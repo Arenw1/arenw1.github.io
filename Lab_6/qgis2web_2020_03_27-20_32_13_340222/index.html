@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="css/leaflet-measure.css">
+        <style>
+        #map {
+            width: 1159px;
+            height: 827px;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/rbush.min.js"></script>
+        <script src="js/labelgun.min.js"></script>
+        <script src="js/labels.js"></script>
+        <script src="js/leaflet-measure.js"></script>
+        <script src="data/US_Tweets_Count_1.js"></script>
+        <script>
+        var map = L.map('map', {
+            zoomControl:true, maxZoom:28, minZoom:1
+        }).fitBounds([[12.596267923133325,-129.83373689276027],[60.09022313899314,-63.227062729427175]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        var measureControl = new L.Control.Measure({
+            position: 'topleft',
+            primaryLengthUnit: 'meters',
+            secondaryLengthUnit: 'kilometers',
+            primaryAreaUnit: 'sqmeters',
+            secondaryAreaUnit: 'hectares'
+        });
+        measureControl.addTo(map);
+        document.getElementsByClassName('leaflet-control-measure-toggle')[0]
+        .innerHTML = '';
+        document.getElementsByClassName('leaflet-control-measure-toggle')[0]
+        .className += ' fas fa-ruler';
+        var bounds_group = new L.featureGroup([]);
+        function setBounds() {
+        }
+        var layer_StamenTonerLite_0 = L.tileLayer('http://a.tile.stamen.com/toner-lite/{z}/{x}/{y}.png', {
+            opacity: 1.0,
+            attribution: '',
+            minZoom: 1,
+            maxZoom: 28,
+            minNativeZoom: 0,
+            maxNativeZoom: 22
+        });
+        layer_StamenTonerLite_0;
+        map.addLayer(layer_StamenTonerLite_0);
+        function pop_US_Tweets_Count_1(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2"><strong>STATE_NAME</strong><br />' + (feature.properties['STATE_NAME'] !== null ? Autolinker.link(feature.properties['STATE_NAME'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>POPULATION</strong><br />' + (feature.properties['POPULATION'] !== null ? Autolinker.link(feature.properties['POPULATION'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>MED_AGE</strong><br />' + (feature.properties['MED_AGE'] !== null ? Autolinker.link(feature.properties['MED_AGE'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Tweets about COVID19</strong><br />' + (feature.properties['covid_final'] !== null ? Autolinker.link(feature.properties['covid_final'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Tweets about the Economy</strong><br />' + (feature.properties['economy_final'] !== null ? Autolinker.link(feature.properties['economy_final'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+        function style_US_Tweets_Count_1_0(feature) {
+            var context = {
+                feature: feature,
+                variables: {}
+            };
+            // Start of if blocks and style check logic
+            if (exp_US_Tweets_Count_1rule0_eval_expression(context)) {
+                  return {
+                pane: 'pane_US_Tweets_Count_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(251,154,153,0.7)',
+                interactive: true,
+            };
+                }
+                else if (exp_US_Tweets_Count_1rule1_eval_expression(context)) {
+                  return {
+                pane: 'pane_US_Tweets_Count_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(122,122,122,0.7)',
+                interactive: true,
+            };
+                }
+                else if (exp_US_Tweets_Count_1rule2_eval_expression(context)) {
+                  return {
+                pane: 'pane_US_Tweets_Count_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(166,206,227,0.7)',
+                interactive: true,
+            };
+                }
+            else {
+                return {fill: false, stroke: false};
+            }
+        }
+        map.createPane('pane_US_Tweets_Count_1');
+        map.getPane('pane_US_Tweets_Count_1').style.zIndex = 401;
+        map.getPane('pane_US_Tweets_Count_1').style['mix-blend-mode'] = 'normal';
+        var layer_US_Tweets_Count_1 = new L.geoJson(json_US_Tweets_Count_1, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_US_Tweets_Count_1',
+            layerName: 'layer_US_Tweets_Count_1',
+            pane: 'pane_US_Tweets_Count_1',
+            onEachFeature: pop_US_Tweets_Count_1,
+            style: style_US_Tweets_Count_1_0,
+        });
+        bounds_group.addLayer(layer_US_Tweets_Count_1);
+        map.addLayer(layer_US_Tweets_Count_1);
+        var baseMaps = {};
+        L.control.layers(baseMaps,{'US_Tweets_Count<br /><table><tr><td style="text-align: center;"><img src="legend/US_Tweets_Count_1_MoreEconomyTweets0.png" /></td><td>More Economy Tweets </td></tr><tr><td style="text-align: center;"><img src="legend/US_Tweets_Count_1_SameNumberofTweets1.png" /></td><td>Same Number of Tweets</td></tr><tr><td style="text-align: center;"><img src="legend/US_Tweets_Count_1_MoreCOVID19Tweets2.png" /></td><td>More COVID19 Tweets</td></tr></table>': layer_US_Tweets_Count_1,"Stamen Toner Lite": layer_StamenTonerLite_0,},{collapsed:false}).addTo(map);
+        setBounds();
+        </script>
+    </body>
+</html>
