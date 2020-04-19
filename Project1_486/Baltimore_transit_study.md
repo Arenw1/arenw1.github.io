@@ -18,7 +18,7 @@ Overall, through the geospatial analysis, the busiest stations appear to be in t
 
 <img src="../images/Graph1.PNG"/>
 
-When looking at income and ridership, there is a tendency for lower income areas to show higher ridership numbers than higher income areas with thr exception of terminating stations. However the R squared value of .13 suggest this only partially may be the case and a further analysis should be done to examine other dependencies.
+When looking at income and ridership, there is a tendency for lower income areas to show higher ridership numbers than higher income areas with the exception of terminating stations. However the R squared value of .13 suggest this only partially may be the case and a further analysis should be done to examine other dependencies.
 
 **Source:**
 Wang, K., & Woo, M. (2017, July 27). The relationship between transit rich neighborhoods and transit ridership: Evidence from the decentralization of poverty. Retrieved from https://www.sciencedirect.com/science/article/pii/S0143622817307166
