@@ -5,7 +5,7 @@
 ### GES Projects
 
 [Baltimore Transit Study: Part 2](GES_486_Project_2/Baltimore_Transit_Study_2.md)
-<img scr="../images/MHHI.PNG"/>
+<img src="../images/MHHI.PNG"/>
 
 [COVID-19 Tweet Map](Lab_6/lab_6_Warner.md)
 <img src="../images/thumbnail.PNG"/>
