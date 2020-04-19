@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="css/leaflet-measure.css">
+        <style>
+        #map {
+            width: 1159px;
+            height: 827px;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/rbush.min.js"></script>
+        <script src="js/labelgun.min.js"></script>
+        <script src="js/labels.js"></script>
+        <script src="js/leaflet-measure.js"></script>
+        <script src="data/MedianHouseholdIncomeinUSDACS20142018_0.js"></script>
+        <script src="data/Interstates_1.js"></script>
+        <script src="data/Counties_2.js"></script>
+        <script src="data/MetroLightrailLinkstationsbyridership_3.js"></script>
+        <script>
+        var map = L.map('map', {
+            zoomControl:true, maxZoom:28, minZoom:1
+        }).fitBounds([[39.171854758450834,-76.79779723227925],[39.39870341063478,-76.38676708264344]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
+        var measureControl = new L.Control.Measure({
+            position: 'topleft',
+            primaryLengthUnit: 'feet',
+            secondaryLengthUnit: 'miles',
+            primaryAreaUnit: 'sqfeet',
+            secondaryAreaUnit: 'sqmiles'
+        });
+        measureControl.addTo(map);
+        document.getElementsByClassName('leaflet-control-measure-toggle')[0]
+        .innerHTML = '';
+        document.getElementsByClassName('leaflet-control-measure-toggle')[0]
+        .className += ' fas fa-ruler';
+        var bounds_group = new L.featureGroup([]);
+        function setBounds() {
+        }
+        function pop_MedianHouseholdIncomeinUSDACS20142018_0(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2"><strong>NAME</strong><br />' + (feature.properties['NAME'] !== null ? autolinker.link(feature.properties['NAME'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_MedianHouseholdIncomeinUSDACS20142018_0_0(feature) {
+            if (feature.properties['q2wHide_medincomeE'] >= 2499.000000 && feature.properties['q2wHide_medincomeE'] <= 41566.600000 ) {
+                return {
+                pane: 'pane_MedianHouseholdIncomeinUSDACS20142018_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(247,251,255,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['q2wHide_medincomeE'] >= 41566.600000 && feature.properties['q2wHide_medincomeE'] <= 59658.200000 ) {
+                return {
+                pane: 'pane_MedianHouseholdIncomeinUSDACS20142018_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(200,221,240,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['q2wHide_medincomeE'] >= 59658.200000 && feature.properties['q2wHide_medincomeE'] <= 78581.600000 ) {
+                return {
+                pane: 'pane_MedianHouseholdIncomeinUSDACS20142018_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(115,179,216,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['q2wHide_medincomeE'] >= 78581.600000 && feature.properties['q2wHide_medincomeE'] <= 105917.800000 ) {
+                return {
+                pane: 'pane_MedianHouseholdIncomeinUSDACS20142018_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(40,121,185,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['q2wHide_medincomeE'] >= 105917.800000 && feature.properties['q2wHide_medincomeE'] <= 250001.000000 ) {
+                return {
+                pane: 'pane_MedianHouseholdIncomeinUSDACS20142018_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(8,48,107,1.0)',
+                interactive: true,
+            }
+            }
+        }
+        map.createPane('pane_MedianHouseholdIncomeinUSDACS20142018_0');
+        map.getPane('pane_MedianHouseholdIncomeinUSDACS20142018_0').style.zIndex = 400;
+        map.getPane('pane_MedianHouseholdIncomeinUSDACS20142018_0').style['mix-blend-mode'] = 'normal';
+        var layer_MedianHouseholdIncomeinUSDACS20142018_0 = new L.geoJson(json_MedianHouseholdIncomeinUSDACS20142018_0, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_MedianHouseholdIncomeinUSDACS20142018_0',
+            layerName: 'layer_MedianHouseholdIncomeinUSDACS20142018_0',
+            pane: 'pane_MedianHouseholdIncomeinUSDACS20142018_0',
+            onEachFeature: pop_MedianHouseholdIncomeinUSDACS20142018_0,
+            style: style_MedianHouseholdIncomeinUSDACS20142018_0_0,
+        });
+        bounds_group.addLayer(layer_MedianHouseholdIncomeinUSDACS20142018_0);
+        map.addLayer(layer_MedianHouseholdIncomeinUSDACS20142018_0);
+        function pop_Interstates_1(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2"><strong>Route Name</strong><br />' + (feature.properties['ID_RTE_NO'] !== null ? autolinker.link(feature.properties['ID_RTE_NO'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_Interstates_1_0() {
+            return {
+                pane: 'pane_Interstates_1',
+                opacity: 1,
+                color: 'rgba(255,127,0,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 1.0,
+                fillOpacity: 0,
+                interactive: true,
+            }
+        }
+        map.createPane('pane_Interstates_1');
+        map.getPane('pane_Interstates_1').style.zIndex = 401;
+        map.getPane('pane_Interstates_1').style['mix-blend-mode'] = 'normal';
+        var layer_Interstates_1 = new L.geoJson(json_Interstates_1, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_Interstates_1',
+            layerName: 'layer_Interstates_1',
+            pane: 'pane_Interstates_1',
+            onEachFeature: pop_Interstates_1,
+            style: style_Interstates_1_0,
+        });
+        bounds_group.addLayer(layer_Interstates_1);
+        map.addLayer(layer_Interstates_1);
+        function pop_Counties_2(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2"><strong>COUNTY</strong><br />' + (feature.properties['COUNTY'] !== null ? autolinker.link(feature.properties['COUNTY'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_Counties_2_0() {
+            return {
+                pane: 'pane_Counties_2',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(232,113,141,0.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_Counties_2');
+        map.getPane('pane_Counties_2').style.zIndex = 402;
+        map.getPane('pane_Counties_2').style['mix-blend-mode'] = 'normal';
+        var layer_Counties_2 = new L.geoJson(json_Counties_2, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_Counties_2',
+            layerName: 'layer_Counties_2',
+            pane: 'pane_Counties_2',
+            onEachFeature: pop_Counties_2,
+            style: style_Counties_2_0,
+        });
+        bounds_group.addLayer(layer_Counties_2);
+        map.addLayer(layer_Counties_2);
+        function pop_MetroLightrailLinkstationsbyridership_3(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>CITY</strong><br />' + (feature.properties['CITY'] !== null ? autolinker.link(feature.properties['CITY'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Station Type</strong><br />' + (feature.properties['Transit_Mo'] !== null ? autolinker.link(feature.properties['Transit_Mo'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Average Weekday Ridership</strong><br />' + (feature.properties['Avg_Wkdy'] !== null ? autolinker.link(feature.properties['Avg_Wkdy'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Median Household Income</strong><br />' + (feature.properties['medincomeE'] !== null ? autolinker.link(feature.properties['medincomeE'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Population (Intersecting BG Average)</strong><br />' + (feature.properties['popE_mean'] !== null ? autolinker.link(feature.properties['popE_mean'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Non-Hispanic White (Intersecting BG Average)</strong><br />' + (feature.properties['pop_nhwhiteE_mean'] !== null ? autolinker.link(feature.properties['pop_nhwhiteE_mean'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Non-Hispanic Black (Intersecting BG Average)</strong><br />' + (feature.properties['pop_nhblackE_mean'] !== null ? autolinker.link(feature.properties['pop_nhblackE_mean'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Hispanic (Intersecting BG Average)</strong><br />' + (feature.properties['pop_hispltxE_mean'] !== null ? autolinker.link(feature.properties['pop_hispltxE_mean'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Housing Units (Intersecting BG Average)</strong><br />' + (feature.properties['house_unitsE_mean'] !== null ? autolinker.link(feature.properties['house_unitsE_mean'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_MetroLightrailLinkstationsbyridership_3_0(feature) {
+            if (feature.properties['Avg_Wkdy'] >= 91.000000 && feature.properties['Avg_Wkdy'] <= 353.000000 ) {
+                return {
+                pane: 'pane_MetroLightrailLinkstationsbyridership_3',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(0,0,0,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(173,173,173,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['Avg_Wkdy'] >= 353.000000 && feature.properties['Avg_Wkdy'] <= 586.600000 ) {
+                return {
+                pane: 'pane_MetroLightrailLinkstationsbyridership_3',
+                radius: 6.0,
+                opacity: 1,
+                color: 'rgba(0,0,0,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(173,173,173,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['Avg_Wkdy'] >= 586.600000 && feature.properties['Avg_Wkdy'] <= 930.800000 ) {
+                return {
+                pane: 'pane_MetroLightrailLinkstationsbyridership_3',
+                radius: 8.0,
+                opacity: 1,
+                color: 'rgba(0,0,0,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(173,173,173,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['Avg_Wkdy'] >= 930.800000 && feature.properties['Avg_Wkdy'] <= 1392.200000 ) {
+                return {
+                pane: 'pane_MetroLightrailLinkstationsbyridership_3',
+                radius: 10.0,
+                opacity: 1,
+                color: 'rgba(0,0,0,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(173,173,173,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['Avg_Wkdy'] >= 1392.200000 && feature.properties['Avg_Wkdy'] <= 3733.000000 ) {
+                return {
+                pane: 'pane_MetroLightrailLinkstationsbyridership_3',
+                radius: 12.0,
+                opacity: 1,
+                color: 'rgba(0,0,0,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(173,173,173,1.0)',
+                interactive: true,
+            }
+            }
+        }
+        map.createPane('pane_MetroLightrailLinkstationsbyridership_3');
+        map.getPane('pane_MetroLightrailLinkstationsbyridership_3').style.zIndex = 403;
+        map.getPane('pane_MetroLightrailLinkstationsbyridership_3').style['mix-blend-mode'] = 'normal';
+        var layer_MetroLightrailLinkstationsbyridership_3 = new L.geoJson(json_MetroLightrailLinkstationsbyridership_3, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_MetroLightrailLinkstationsbyridership_3',
+            layerName: 'layer_MetroLightrailLinkstationsbyridership_3',
+            pane: 'pane_MetroLightrailLinkstationsbyridership_3',
+            onEachFeature: pop_MetroLightrailLinkstationsbyridership_3,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_MetroLightrailLinkstationsbyridership_3_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_MetroLightrailLinkstationsbyridership_3);
+        map.addLayer(layer_MetroLightrailLinkstationsbyridership_3);
+        var baseMaps = {};
+        L.control.layers(baseMaps,{'Metro/Lightrail Link stations by ridership<br /><table><tr><td style="text-align: center;"><img src="legend/MetroLightrailLinkstationsbyridership_3_913530.png" /></td><td>91 - 353 </td></tr><tr><td style="text-align: center;"><img src="legend/MetroLightrailLinkstationsbyridership_3_3535871.png" /></td><td>353 - 587 </td></tr><tr><td style="text-align: center;"><img src="legend/MetroLightrailLinkstationsbyridership_3_5879312.png" /></td><td>587 - 931 </td></tr><tr><td style="text-align: center;"><img src="legend/MetroLightrailLinkstationsbyridership_3_93113923.png" /></td><td>931 - 1392 </td></tr><tr><td style="text-align: center;"><img src="legend/MetroLightrailLinkstationsbyridership_3_139237334.png" /></td><td>1392 - 3733 </td></tr></table>': layer_MetroLightrailLinkstationsbyridership_3,'<img src="legend/Counties_2.png" /> Counties': layer_Counties_2,'<img src="legend/Interstates_1.png" /> Interstates': layer_Interstates_1,'Median Household Income in USD (ACS 2014-2018)<br /><table><tr><td style="text-align: center;"><img src="legend/MedianHouseholdIncomeinUSDACS20142018_0_2499415670.png" /></td><td>2499 - 41567 </td></tr><tr><td style="text-align: center;"><img src="legend/MedianHouseholdIncomeinUSDACS20142018_0_41567596581.png" /></td><td>41567 - 59658 </td></tr><tr><td style="text-align: center;"><img src="legend/MedianHouseholdIncomeinUSDACS20142018_0_59658785822.png" /></td><td>59658 - 78582 </td></tr><tr><td style="text-align: center;"><img src="legend/MedianHouseholdIncomeinUSDACS20142018_0_785821059183.png" /></td><td>78582 - 105918 </td></tr><tr><td style="text-align: center;"><img src="legend/MedianHouseholdIncomeinUSDACS20142018_0_1059182500014.png" /></td><td>105918 - 250001 </td></tr></table>': layer_MedianHouseholdIncomeinUSDACS20142018_0,},{collapsed:false}).addTo(map);
+        setBounds();
+        resetLabels([layer_MedianHouseholdIncomeinUSDACS20142018_0,layer_Interstates_1,layer_Counties_2]);
+        map.on("zoomend", function(){
+            resetLabels([layer_MedianHouseholdIncomeinUSDACS20142018_0,layer_Interstates_1,layer_Counties_2]);
+        });
+        map.on("layeradd", function(){
+            resetLabels([layer_MedianHouseholdIncomeinUSDACS20142018_0,layer_Interstates_1,layer_Counties_2]);
+        });
+        map.on("layerremove", function(){
+            resetLabels([layer_MedianHouseholdIncomeinUSDACS20142018_0,layer_Interstates_1,layer_Counties_2]);
+        });
+        </script>
+    </body>
+</html>
