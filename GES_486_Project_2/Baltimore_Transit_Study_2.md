@@ -11,16 +11,17 @@ My spatial analysis was conducted using 0.5 mile buffers around the Metro/Lightr
 <img src="../images/Metro_Lightrail_Map.JPG"/>
 <sup><sub>Median household income per block group in the greater Baltimore City area with Lightrail and Metro Link stations symbolized by weekday ridership.
   
-<img scr="../images/MMHI.PNG"/>
+<img scr="../images/MHHI.PNG"/>
 <sup><sub>The new median household income vs. ridership chart with additional Metro Link data.
-
-The addition of the Metro Link to the Lightrail data helped strengthen the case for the model that Lightrail and Metro Link stations with intersecting block groups with lower median household incomes tend to have a higher average weekday ridership. The R squared value for this model suggests that at least 20% of the time this may be the case. Going further into the data, the relationship between station’s non-Hispanic White population and ridership had an R squared value of 0.2143 and 0.167 for the non-Hispanic Black population. Interestingly enough, the R squared value for the Hispanic population and ridership was extremely low, at 5E^-6, the relationship generally does not fit the model that possibly describes income and the non-Hispanic White and Black populations. 
 
 <img src="../images/NHBlack_Prop.PNG"/>
 
 <img src="../images/NHWhite_Prop.PNG"/>
 
 <img src="../images/Hisp_Lat_Prop.PNG"/>
+
+
+The addition of the Metro Link to the Lightrail data helped strengthen the case for the model that Lightrail and Metro Link stations with intersecting block groups with lower median household incomes tend to have a higher average weekday ridership. The R squared value for this model suggests that at least 20% of the time this may be the case. Going further into the data, the relationship between station’s non-Hispanic White population and ridership had an R squared value of 0.2143 and 0.167 for the non-Hispanic Black population. Interestingly enough, the R squared value for the Hispanic population and ridership was extremely low, at 5E^-6, the relationship generally does not fit the model that possibly describes income and the non-Hispanic White and Black populations. 
 
 
 **Source:**
