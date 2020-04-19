@@ -24,6 +24,7 @@ My spatial analysis was conducted using 0.5 mile buffers around the Metro/Lightr
 
 The addition of the Metro Link to the Lightrail data helped strengthen the case for the model that Lightrail and Metro Link stations with intersecting block groups with lower median household incomes tend to have a higher average weekday ridership. The R squared value for this model suggests that at least 20% of the time this may be the case. Going further into the data, the relationship between station’s non-Hispanic White population and ridership had an R squared value of 0.2143 and 0.167 for the non-Hispanic Black population. Interestingly enough, the R squared value for the Hispanic population and ridership was extremely low, at 5E^-6, the relationship generally does not fit the model that possibly describes income and the non-Hispanic White and Black populations. 
 
+The webmap is available [here](../GES_486_Project_2/qgis2web_2020_04_19-13_29_39_233430/index.html) for the full estimates of station by station data.
 
 **Source:**
 Wang, K., & Woo, M. (2017, July 27). The relationship between transit rich neighborhoods and transit ridership: Evidence from the decentralization of poverty. Retrieved from https://www.sciencedirect.com/science/article/pii/S0143622817307166
