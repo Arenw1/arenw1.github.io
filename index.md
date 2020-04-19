@@ -4,6 +4,9 @@
 
 ### GES Projects
 
+[Baltimore Transit Study: Part 2](GES_486_Project_2/Baltimore/Transit/Study_2.md)
+<img scr="../images/MHHI.PNG"/>
+
 [COVID-19 Tweet Map](Lab_6/lab_6_Warner.md)
 <img src="../images/thumbnail.PNG"/>
 A map of the U.S. comparing the amount of tweets about the COVID-19 Pandemic and the economy.
