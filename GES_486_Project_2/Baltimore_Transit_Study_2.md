@@ -8,7 +8,7 @@ My spatial analysis was conducted using 0.5 mile buffers around the Metro/Lightr
 
 
 ### Results
-<img src="../images/Metro_Lightrail_Map.JPG"/>
+<img src="../images/Metro_Lightrail_Map.jpg"/>
 <sup><sub>Median household income per block group in the greater Baltimore City area with Lightrail and Metro Link stations symbolized by weekday ridership.
   
 <img scr="../images/MHHI.PNG"/>
