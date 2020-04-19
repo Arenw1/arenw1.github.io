@@ -22,7 +22,6 @@ The addition of the Metro Link to the Lightrail data helped strengthen the case 
 
 <img src="../images/Hisp_Lat_Prop.PNG"/>
 
-See the interactive webmap [here](../Lab_6/qgis2web_2020_03_27-20_32_13_340222/index.html) for all of the station by station data. 
 
 **Source:**
 Wang, K., & Woo, M. (2017, July 27). The relationship between transit rich neighborhoods and transit ridership: Evidence from the decentralization of poverty. Retrieved from https://www.sciencedirect.com/science/article/pii/S0143622817307166
