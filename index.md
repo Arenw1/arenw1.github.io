@@ -4,7 +4,7 @@
 
 ### GES Projects
 [Baltimore Transit Study: Part 3](GES_486_Project_3/Baltimore_Transit_Study_3.md)
-<img src="../images/Transit_Map.PNG"/>
+<img src="../images/Transit_Map.png"/>
 
 [Baltimore Transit Study: Part 2](GES_486_Project_2/Baltimore_Transit_Study_2.md)
 <img src="../images/MHHI.PNG"/>
