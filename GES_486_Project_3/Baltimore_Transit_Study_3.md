@@ -10,7 +10,7 @@ As was done for the previous analyses, intersecting block group data was summari
 
 
 ### Results
-<img src="../images/Transit_Map.PNG"/>
+<img src="../images/Transit_Map.png"/>
 <sup><sub>Median household income per block group in the Baltimore City with Lightrail, Metro, and the newly added Redline stationing.
   
 
