@@ -26,7 +26,7 @@ Project 1 for GES 486 - Advanced GIS
 Bahamas Fire Project (Data-MODIS Burned Area Product)
 <img src="/projects/Map_1.JPG"/>
 
-Repeat fires in the island of North andros in the Bahamas.
+Repeat fires on Andros Island, The Bahamas.
 
 ---
 
