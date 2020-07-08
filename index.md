@@ -1,24 +1,26 @@
 ## My Work
 
-===
+---
 
 ### GES 486 (Advanced GIS) Projects
 [Baltimore Transit Study: Part 3](GES_486_Project_3/Baltimore_Transit_Study_3.md)
 <img src="../images/Transit_Map.png"/>
 
+
 [Baltimore Transit Study: Part 2](GES_486_Project_2/Baltimore_Transit_Study_2.md)
 <img src="../images/MHHI.PNG"/>
 
+
 [COVID-19 Tweet Map](Lab_6/lab_6_Warner.md)
 <img src="../images/thumbnail.PNG"/>
-A map of the U.S. comparing the amount of tweets about the COVID-19 Pandemic and the economy.
+A map of the U.S. comparing the amount of tweets containing the terms "COVID-19" and "economy".
 
----
 
 [Baltimore Lightrail Study](Project1_486/Baltimore_transit_study.md)
 <img src="../images/BG_map.PNG"/>
 Project 1 for GES 486 - Advanced GIS
 
+### Other projects in UMBC's GES Department
 ---
 
 [Bahamas Fire Project (Data-MODIS Burned Area Product)](pdf/381 Final Presentation.pdf)
