@@ -5,7 +5,7 @@ This map was created for GES 486, Lab 6. This map shows the Continental United S
 ### Analysis
 The tweets were gathered by running the search_tweets function of rtweet in R and grabbing geocoded tweets in the US containing each term. The tweets were brought into QGIS as points where a count by each state was done for both terms and the states were conditionally symbolized based on the higher value. 
 
-**Disclaimer:** Tweets were gathered on the basis of containing the specified word or term. There is no context associated with the tweet and the map symbology is NOT intended for any conclusions to be drawn. Just a fun class project!
+The symbology is not meant to suggest any patterns.
 
 ---
 
