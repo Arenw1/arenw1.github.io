@@ -23,10 +23,10 @@ Project 1 for GES 486 - Advanced GIS
 ### Other projects in UMBC's GES Department
 ---
 
-[Bahamas Fire Project (Data-MODIS Burned Area Product)](pdf/381 Final Presentation.pdf)
+Bahamas Fire Project (Data-MODIS Burned Area Product)
 <img src="/projects/Map_1.JPG"/>
 
-This project was to look at fire regimes in the Bahamas through remote sensing and GIS
+Repeat fires in the island of North andros in the Bahamas.
 
 ---
 
