@@ -1,8 +1,8 @@
 ## My Work
 
----
+===
 
-### GES Projects
+### GES 486 (Advanced GIS) Projects
 [Baltimore Transit Study: Part 3](GES_486_Project_3/Baltimore_Transit_Study_3.md)
 <img src="../images/Transit_Map.png"/>
 
@@ -27,12 +27,6 @@ Project 1 for GES 486 - Advanced GIS
 This project was to look at fire regimes in the Bahamas through remote sensing and GIS
 
 ---
-[Habitat Determination](/Habitat_Determination.md)
-<img src="/projects/Habitat.PNG"/>
-This project was done as a test of GIS skills during the 2019 Fall semester at UMBC
-
----
-
 
 ### Additional Positions/Honors
 
