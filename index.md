@@ -18,7 +18,7 @@
 
 [Baltimore Lightrail Study](Project1_486/Baltimore_transit_study.md)
 <img src="../images/BG_map.PNG"/>
-Project 1 for GES 486 - Advanced GIS
+<sup><sub>Project 1 for GES 486 - Advanced GIS
 
 ### Other projects in UMBC's GES Department
 ---
