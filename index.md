@@ -29,7 +29,7 @@ EVI time series of the Annapolis - Chesapeake Bay area through Google Earth Engi
 
 Bahamas Fire Project, MODIS Burned Area Product with raster analysis (GES 381 - Remote Sensing).
 <img src="/projects/Map_1.JPG"/>
-<sup><sub>Number of repeat fires on Andros Island (The Bahamas) from 2010 to 2019.
+<sup><sub>As part of a group final project, the number of repeat fires on Andros Island (The Bahamas) from 2010 to 2019.
 
 ---
 
