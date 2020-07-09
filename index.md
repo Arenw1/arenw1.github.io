@@ -23,11 +23,11 @@
 ### Other projects in UMBC's GES Department
 ---
 
-EVI time series of the Annapolis - Chesapeake Bay area through Google Earth Engine
+EVI time series of the Annapolis - Chesapeake Bay area through Google Earth Engine (GES 481 - Image Processing).
 <img src="../images/EVI_Series.gif">
 
 
-Bahamas Fire Project, MODIS Burned Area Product with raster analysis.
+Bahamas Fire Project, MODIS Burned Area Product with raster analysis (GES 381 - Remote Sensing).
 <img src="/projects/Map_1.JPG"/>
 <sup><sub>Number of repeat fires on Andros Island (The Bahamas) from 2010 to 2019.
 
