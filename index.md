@@ -13,7 +13,7 @@
 
 [COVID-19 Tweet Map](Lab_6/lab_6_Warner.md)
 <img src="../images/thumbnail.PNG"/>
-A map of the U.S. comparing the amount of tweets containing the terms "COVID-19" and "economy".
+<sup><sub>A map of the U.S. comparing the amount of tweets containing the terms "COVID-19" and "economy".
 
 
 [Baltimore Lightrail Study](Project1_486/Baltimore_transit_study.md)
@@ -23,12 +23,13 @@ Project 1 for GES 486 - Advanced GIS
 ### Other projects in UMBC's GES Department
 ---
 
-EVI time series of the Annapolis Chesapeake Bay area
+EVI time series of the Annapolis - Chesapeake Bay area through Google Earth Engine
 <img src="../images/EVI_Series.gif">
+
 
 Bahamas Fire Project, MODIS Burned Area Product with raster analysis.
 <img src="/projects/Map_1.JPG"/>
-Number of repeat fires on Andros Island (The Bahamas) from 2010 to 2019.
+<sup><sub>Number of repeat fires on Andros Island (The Bahamas) from 2010 to 2019.
 
 ---
 
