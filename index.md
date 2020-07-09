@@ -24,7 +24,7 @@ Project 1 for GES 486 - Advanced GIS
 ---
 
 EVI time series of the Annapolis Chesapeake Bay area
-<img scr="../images/EVI_Series.gif">
+![](../images/EVI_Series.gif)
 
 Bahamas Fire Project, MODIS Burned Area Product with raster analysis.
 <img src="/projects/Map_1.JPG"/>
