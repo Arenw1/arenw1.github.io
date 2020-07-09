@@ -28,7 +28,7 @@ EVI time series of the Annapolis Chesapeake Bay area
 
 Bahamas Fire Project, MODIS Burned Area Product with raster analysis.
 <img src="/projects/Map_1.JPG"/>
-Repeat fires on Andros Island, The Bahamas.
+Number of repeat fires on Andros Island (The Bahamas) between from 2010 to 2019.
 
 ---
 
